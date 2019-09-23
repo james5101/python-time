@@ -1,5 +1,5 @@
 FROM python:3.7
 
-ADD /src/python.py / 
+ADD /src/pythontime/print.py / 
 
-CMD ["python", "./python.py"]
+CMD ["python", "./print.py"]
