@@ -1,6 +1,9 @@
 run:
 	python python.py
 
+test:
+	pytest
+
 docker-build:
 	docker build -t python-time .
 
